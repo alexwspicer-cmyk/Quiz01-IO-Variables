@@ -72,7 +72,7 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Consolas", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Consolas", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Maroon;
             label1.Location = new Point(2, -2);
             label1.Margin = new Padding(2, 0, 2, 0);
@@ -102,44 +102,44 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(10, 75);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(503, 37);
+            label4.Size = new Size(307, 23);
             label4.TabIndex = 3;
             label4.Text = "Question 01 - String Output";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(2, 498);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(683, 37);
+            label5.Size = new Size(417, 23);
             label5.TabIndex = 4;
             label5.Text = "Question 02 - String Input and Output";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(801, 75);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(989, 37);
+            label6.Size = new Size(604, 23);
             label6.TabIndex = 5;
             label6.Text = "Question 03 - Integer input and Output and Calculation";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(789, 433);
             label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(1025, 37);
+            label7.Size = new Size(626, 23);
             label7.TabIndex = 6;
             label7.Text = "Question 04 -Input, Calculations and Output with Doubles";
             // 
@@ -172,7 +172,7 @@
             // q2SExampleButton
             // 
             q2SExampleButton.BackColor = Color.Maroon;
-            q2SExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            q2SExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point);
             q2SExampleButton.ForeColor = SystemColors.ButtonHighlight;
             q2SExampleButton.Location = new Point(572, 981);
             q2SExampleButton.Name = "q2SExampleButton";
@@ -185,7 +185,7 @@
             // q3ExampleButton
             // 
             q3ExampleButton.BackColor = Color.Maroon;
-            q3ExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            q3ExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point);
             q3ExampleButton.ForeColor = SystemColors.ButtonHighlight;
             q3ExampleButton.Location = new Point(1692, 241);
             q3ExampleButton.Name = "q3ExampleButton";
@@ -198,7 +198,7 @@
             // hintButton
             // 
             hintButton.BackColor = Color.FromArgb(0, 0, 64);
-            hintButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            hintButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point);
             hintButton.ForeColor = SystemColors.ButtonHighlight;
             hintButton.Location = new Point(1692, 628);
             hintButton.Name = "hintButton";
@@ -211,7 +211,7 @@
             // q4ExampleButton
             // 
             q4ExampleButton.BackColor = Color.Maroon;
-            q4ExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            q4ExampleButton.Font = new Font("Consolas", 7.875F, FontStyle.Regular, GraphicsUnit.Point);
             q4ExampleButton.ForeColor = SystemColors.ButtonHighlight;
             q4ExampleButton.Location = new Point(1692, 790);
             q4ExampleButton.Name = "q4ExampleButton";
@@ -229,6 +229,7 @@
             q01Button.TabIndex = 14;
             q01Button.Text = "Code Me!";
             q01Button.UseVisualStyleBackColor = true;
+            q01Button.Click += q01Button_Click;
             // 
             // q1OutputLabel
             // 
@@ -254,6 +255,7 @@
             q02Button.TabIndex = 17;
             q02Button.Text = "Code Me!";
             q02Button.UseVisualStyleBackColor = true;
+            q02Button.Click += q02Button_Click;
             // 
             // label11
             // 
@@ -268,7 +270,7 @@
             // 
             q2TextBox.Location = new Point(242, 734);
             q2TextBox.Name = "q2TextBox";
-            q2TextBox.Size = new Size(320, 39);
+            q2TextBox.Size = new Size(320, 27);
             q2TextBox.TabIndex = 19;
             // 
             // label12
@@ -276,7 +278,7 @@
             label12.AutoSize = true;
             label12.Location = new Point(2, 683);
             label12.Name = "label12";
-            label12.Size = new Size(704, 32);
+            label12.Size = new Size(423, 20);
             label12.TabIndex = 20;
             label12.Text = "----------------------------------------------";
             // 
@@ -285,7 +287,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(10, 225);
             label13.Name = "label13";
-            label13.Size = new Size(704, 32);
+            label13.Size = new Size(423, 20);
             label13.TabIndex = 21;
             label13.Text = "----------------------------------------------";
             // 
@@ -294,24 +296,24 @@
             label14.AutoSize = true;
             label14.Location = new Point(801, 193);
             label14.Name = "label14";
-            label14.Size = new Size(1019, 32);
+            label14.Size = new Size(612, 20);
             label14.TabIndex = 22;
             label14.Text = "-------------------------------------------------------------------";
             // 
             // num1Box
             // 
-            num1Box.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            num1Box.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             num1Box.Location = new Point(814, 237);
             num1Box.Name = "num1Box";
-            num1Box.Size = new Size(132, 45);
+            num1Box.Size = new Size(132, 31);
             num1Box.TabIndex = 23;
             // 
             // num2Box
             // 
-            num2Box.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            num2Box.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             num2Box.Location = new Point(1067, 237);
             num2Box.Name = "num2Box";
-            num2Box.Size = new Size(132, 45);
+            num2Box.Size = new Size(132, 31);
             num2Box.TabIndex = 24;
             // 
             // q3OutputLabel
@@ -328,7 +330,7 @@
             label15.AutoSize = true;
             label15.Location = new Point(994, 241);
             label15.Name = "label15";
-            label15.Size = new Size(29, 32);
+            label15.Size = new Size(18, 20);
             label15.TabIndex = 26;
             label15.Text = "X";
             // 
@@ -337,7 +339,7 @@
             label16.AutoSize = true;
             label16.Location = new Point(1261, 241);
             label16.Name = "label16";
-            label16.Size = new Size(29, 32);
+            label16.Size = new Size(18, 20);
             label16.TabIndex = 27;
             label16.Text = "=";
             // 
@@ -346,7 +348,7 @@
             label17.AutoSize = true;
             label17.Location = new Point(795, 586);
             label17.Name = "label17";
-            label17.Size = new Size(1019, 32);
+            label17.Size = new Size(612, 20);
             label17.TabIndex = 28;
             label17.Text = "-------------------------------------------------------------------";
             // 
@@ -372,14 +374,14 @@
             // 
             noItemsBox.Location = new Point(1067, 628);
             noItemsBox.Name = "noItemsBox";
-            noItemsBox.Size = new Size(320, 39);
+            noItemsBox.Size = new Size(320, 27);
             noItemsBox.TabIndex = 31;
             // 
             // costBox
             // 
             costBox.Location = new Point(1067, 695);
             costBox.Name = "costBox";
-            costBox.Size = new Size(320, 39);
+            costBox.Size = new Size(320, 27);
             costBox.TabIndex = 32;
             // 
             // q04Button
@@ -390,6 +392,7 @@
             q04Button.TabIndex = 33;
             q04Button.Text = "Code Me!";
             q04Button.UseVisualStyleBackColor = true;
+            q04Button.Click += q04Button_Click;
             // 
             // q03Button
             // 
@@ -399,6 +402,7 @@
             q03Button.TabIndex = 34;
             q03Button.Text = "Code Me!";
             q03Button.UseVisualStyleBackColor = true;
+            q03Button.Click += q03Button_Click;
             // 
             // q4OutputLabel
             // 
@@ -424,13 +428,13 @@
             label21.AutoSize = true;
             label21.Location = new Point(795, 945);
             label21.Name = "label21";
-            label21.Size = new Size(1019, 32);
+            label21.Size = new Size(612, 20);
             label21.TabIndex = 37;
             label21.Text = "-------------------------------------------------------------------";
             // 
             // label22
             // 
-            label22.Font = new Font("Consolas", 10.125F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label22.Font = new Font("Consolas", 10.125F, FontStyle.Italic, GraphicsUnit.Point);
             label22.ForeColor = Color.FromArgb(0, 0, 64);
             label22.Location = new Point(801, 1011);
             label22.Name = "label22";
@@ -440,9 +444,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(15F, 32F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1854, 1129);
+            ClientSize = new Size(1854, 1055);
             Controls.Add(label22);
             Controls.Add(label21);
             Controls.Add(label20);
@@ -482,7 +486,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Font = new Font("Consolas", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Font = new Font("Consolas", 10.125F, FontStyle.Regular, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Quiz 01 - Input, Output and Variable Types";
